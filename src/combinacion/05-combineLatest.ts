@@ -33,10 +33,10 @@ const getInputStream = ( elem: HTMLElement ) => {
 
 
 
-combineLatest(
+combineLatest([
 	getInputStream( input1 ),
 	getInputStream( input2 ),
-)
+])
 
 
 
